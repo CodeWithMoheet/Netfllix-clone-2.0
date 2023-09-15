@@ -1,8 +1,8 @@
 
-@media (max-width:500px){
+@media (min-width: 320px) and (max-width: 480px) {
 
 .showcase-content {
-  margin-top: 4rem;
+  margin-top: 10rem;
 }
 
 .showcase-content p {
@@ -25,13 +25,14 @@
   position: relative;
   top: -95px;
   padding-bottom: 30px;
+  padding-left: 22px;
 }
 
 .para{
   position: relative;
-  top: -105px;
-
-  
+    top: -110px;
+    text-align: center;
+    /* width: 392px;  */
 }
 
 .pic1 img {
@@ -48,4 +49,12 @@
   position: relative;
   left: -30px;
 }
+}
+
+@media (min-width:480px) and (max-width:1130px){
+
+
+
+
+
 }
