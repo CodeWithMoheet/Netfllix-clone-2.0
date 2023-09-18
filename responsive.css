@@ -37,24 +37,39 @@
 
 .pic1 img {
   height: auto;
+   display: flex;
+  justify-content: center
   /* width: auto; */
-  position: relative;
+  /* position: relative;
   left: 50px;
-  bottom: 0px;
+  bottom: 0px; */
 }
 
 .pic img {
   height: auto;
+  display: flex;
+  justify-content: center;
   /* width: auto; */
-  position: relative;
-  left: -30px;
+  /* position: relative;
+  left: -30px; */
 }
 }
 
-@media (min-width:480px) and (max-width:1130px){
+@media (min-width:480px) and (max-width:1100px){
 
-
-
-
+  .pic {
+    margin-top: 120px;
+    /* padding-top: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pic1 {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 140px;
+  }
 
 }
